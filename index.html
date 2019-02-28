@@ -8,6 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
 
   <title>Hello, world!</title>
 </head>
@@ -20,46 +21,121 @@
     <div class="row">
       <div class="col-4">
         <p>
-          <H1>Futbol</H1>
+          <h3>Futbol</h3>
           <P>Deporte con pelota redonda y con reglas</P>
         </p>
       </div>
       <div class="col-4">
         <p>
-          <H1>Futbol Americano</H1>
+          <h3>Futbol Americano</h3>
           <P>Deporte con pelota ovalada y con reglas</P>
         </p>
       </div>
       <div class="col-4">
         <p>
-          <h1>Futbol Sala</h1>
+          <h3>Futbol Sala</h3>
           <P>Deporte con pelota pequeña y con reglas</P>
         </p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-3">
-        <h1>Hotel Malibu</h1>
-        <p>Excelente comida, piscina infinita</p>
-        <button class="btn">Reservar</button>
+    <div class="d-flex flex-wrap">
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Malibu</h4>
+          <p>Excelente comida, piscina infinita</p>
+        </div>
+        <div>
+          <button class="btn btn-primary">Reservar</button>
+        </div>
       </div>
-      <div class="col-3">
-        <h1>Hotel Hooters</h1>
-        <p>Excelente ubicación, precio y juegos de azar</p>
-        <button class="btn">Reservar</button>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Hooters</h4>
+          <p>Excelente ubicación, precio y juegos de azar</p>
+        </div>
+        <div>
+          <button class="btn btn-primary">Reservar</button>
+        </div>
       </div>
-      <div class="col-3">
-        <h1>Hotel Barcelona</h1>
-        <p<>Excelente ubicación a las afueras del estadio</p>
-        <button class="btn">Reservar</button>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Barcelona</h4>
+          <p<>Excelente ubicación a las afueras del estadio</p>
+        </div>
+        <div>
+          <button class="btn btn-primary">Reservar</button>
+        </div>
       </div>
-      <div class="col-3">
-        <h1>Hotel Panaca</h1>
-        <p>Excelente ubicación y atracciones en panaca show</p>
-        <button class="btn">Reservar</button>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Panaca</h4>
+          <p>Excelente ubicación y atracciones en panaca show</p>
+        </div>
+        <div>
+          <button class="btn btn-primary">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Dubai</h4>
+          <p>Excelente comida, piscina infinita</p>
+        </div>
+        <div>
+          <button class="btn btn-primary">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Madrid</h4>
+          <p>Excelente ubicación, precio y juegos de azar</p>
+        </div>
+        <div>
+          <button class="btn btn-primary">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Chile</h4>
+          <p<>Excelente ubicación a las afueras del estadio</p>
+        </div>
+        <div>
+          <button class="btn btn-primary">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-betweenˇ">
+        <div>
+          <h4>Hotel Medellin</h4>
+          <p>Excelente ubicación y atracciones en panaca show</p>
+        </div>
+        <div>
+          <button class="btn btn-primary">Reservar</button>
+        </div>
       </div>
     </div>
   </div>
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column ">
+        <a href="www.linkedin.com">Linkedin</a>
+        <a href="www.twitter.com">Twitter</a>
+        <a href="www.instragram.com">Instagram</a>
+      </div>
+      <div class="col-sm-4">
+        <address>
+          <h3>Oficina central<h3>
+          <p>Rionegro, Antioquia, Colombia</p>
+          <p>+573107865434</p>
+          <p>contacto@hotelsnew.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="www.linkedin.com">Nosotros</a>
+        <a href="www.twitter.com">Precios</a>
+        <a href="www.instragram.com">Termunos y condiciones</a>
+        <a href="www.instragram.com">Contacto</a>
+      </div>
+    </div>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -67,5 +143,4 @@
   <script src="node_modules/popper.js/dist/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-
 </html>
