@@ -47,46 +47,56 @@
   <div class="container">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-          <li class="breadcrumb-item "><a href="./about.html">Nosotros</a></li>
-          <li class="breadcrumb-item "><a href="./prices.html">Precios</a></li>
-          <li class="breadcrumb-item "><a href="./plans.html">Planes</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+        <!-- <li class="breadcrumb-item "><a href="./about.html">Nosotros</a></li> -->
+        <!-- <li class="breadcrumb-item "><a href="./prices.html">Precios</a></li> -->
+        <!-- <li class="breadcrumb-item "><a href="./plans.html">Planes</a></li> -->
+        <li class="breadcrumb-item active" aria-current="page">Contacto</li>
       </ol>
     </nav>
-    <h3>Lorem Ipsum</h3>
-    <span>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est lectus, auctor a tortor non, facilisis blandit
-      turpis. Sed sit amet placerat nunc. Nullam quis sapien eget erat viverra aliquet eget a odio. Pellentesque euismod
-      risus sem, vulputate accumsan erat cursus quis. Etiam rutrum ante non leo molestie facilisis. Praesent sed risus a
-      diam tempor venenatis. Aenean non feugiat tellus. Maecenas eu faucibus diam, at commodo risus. Proin interdum sed
-      eros a posuere. Sed et nunc at diam molestie hendrerit. Sed id neque velit.
-
-      Aenean dictum velit mauris, sed tristique massa rhoncus sit amet. Aliquam ultrices, lectus nec rhoncus
-      ullamcorper, sapien lectus vestibulum lorem, sed sodales sapien elit ultrices sem. Fusce vel ipsum et libero
-      tincidunt semper eget vel nisl. Fusce hendrerit magna at ligula tempor, id gravida augue imperdiet. Aliquam
-      efficitur nibh a ante accumsan, a pretium mi maximus. In ultricies consectetur faucibus. Cras sollicitudin quis
-      turpis eget cursus. Praesent vel nisl fringilla, pulvinar ligula id, sollicitudin nisl. Ut in porttitor mi. Nullam
-      tortor ipsum, placerat vel tellus et, malesuada suscipit nunc. Morbi lacinia tincidunt odio sit amet consectetur.
-      Vestibulum blandit neque vitae justo tristique lacinia. Proin congue lorem in diam ornare, ut luctus velit
-      sollicitudin.
-
-      Suspendisse scelerisque est et lorem posuere, vitae sodales turpis semper. Nam in pretium sem, ac fermentum nulla.
-      Nunc dictum vel quam varius pellentesque. Fusce fermentum a ipsum eu luctus. Duis vel tempus risus. Integer nec
-      volutpat augue. Cras sollicitudin mi eget aliquam sodales. Nam quis pellentesque dui, eu congue ipsum. Donec porta
-      dictum nisi, non lacinia velit ornare quis.
-
-      Suspendisse pharetra scelerisque nisl. Curabitur ut magna sit amet libero dignissim malesuada. Praesent non urna
-      turpis. Aliquam convallis feugiat elit a faucibus. Proin vestibulum risus a nulla fringilla condimentum. Fusce
-      molestie purus quis lacinia dapibus. Fusce eu lorem non nibh commodo pellentesque.
-
-      Proin consequat purus elementum dui ullamcorper, quis hendrerit nisl eleifend. Nulla pharetra egestas bibendum.
-      Donec auctor ipsum arcu, a consequat mauris efficitur vitae. Suspendisse potenti. Maecenas gravida venenatis leo,
-      accumsan aliquam velit semper vel. Mauris sed faucibus enim. In hac habitasse platea dictumst. Suspendisse
-      potenti. Integer blandit dui risus, ac feugiat velit sagittis eget. Mauris semper eleifend arcu vel commodo. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Morbi laoreet mi nulla, ac
-      fermentum ante maximus id. Praesent pharetra nisl nec turpis commodo tincidunt. Proin id ex sem.
-    </span>
+    <h3>Dejama tu comentario</h3>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-sm-6">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="lastname">Apellido</label>
+          <input type="text" class="form-control" id="lastname" placeholder="Ingrese su apellido">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-sm-9">
+          <label id="address">Direccion</label>
+          <input type="text" class="form-control" id="address" placeholder="Ingrese su direccion de residencia">
+        </div>
+        <div class="form-group col-sm-3">
+          <label id="city">Ciudad</label>
+          <select id="city" class="form-control">
+            <option selected>Rionegro</option>
+            <option>Medellin</option>
+            <option>Bello</option>
+            <option>Marinilla</option>
+            <option>Guarne</option>
+            <option>Granada</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="commentary">Comentario</label>
+        <textarea id="commentary" class="form-control" rows="6"></textarea>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridcheck">
+        <label class="form-check-label" id="gridcheck">Recibir notificaciones de contacto</label>
+      </div>
+      <button type="submit" class="btn btn-primary"> Enviar</button>
+    </form>
   </div>
   <footer>
     <div class="row">
