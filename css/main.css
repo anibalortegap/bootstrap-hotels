@@ -1,5 +1,6 @@
 .btn-booking {
     width: 100%;
+    margin-top: 5px;
 }
 
 .card{
@@ -33,67 +34,11 @@ nav{
     background-color: #707070;
 }
 
-/* Radio CSS */
-.checkbox-inline, .radio-inline {
-    padding-left: 0px;
-    @include font-body-dark-left;
+.nav-pills {
+    margin-bottom: 10px;
 }
 
-.form-horizontal .radio-inline {
-    margin-top: 10px;
-}
 
-input[type=radio] {
-        opacity: 0;
-        position: absolute;
-        z-index: 12;
-        width: 18px;
-        height: 18px;
-}
-input[type=radio]+.lbl.padding-8::before {
-        margin-right: 8px;
-}
-input[type=radio]+.lbl::before {
-        font-size: 11px;
-        color: #454648;
-        content: "\a0";
-        border-radius: 0;
-        display: inline-block;
-        text-align: center;
-        vertical-align: middle;
-        height: 32px;
-        line-height: 31px;
-        min-width: 32px;
-        margin-right: 1px;
-        margin-top: -5px;
-}
-input[type=radio]+.lbl::before {
-        border-radius: 32px;
-        font-size: 17px;
-        background: #fff;
-        padding-top: 8px;
-        border: 1px solid #a7a9ac;
-}
-
-input[type=radio]+.lbl.active::before {
-        border-color: transparent;
-        background: #ffc20e;
-}
-
-input[type=radio]:checked+.lbl::before {
-        /*content: "\2022";*/
-        @extend .fas;
-        content: fa-content($fa-var-check);
-}
-
-.radio-inline .lbl::after{
-    top: 9px;
-	left: 9px;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: white;
-}
 
 
 
