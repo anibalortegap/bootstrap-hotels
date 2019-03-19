@@ -44,7 +44,7 @@
   <div class="jumbotron">
     <h1>Hoteles</h1>
   </div>
-  
+
   <div class="container">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
@@ -52,19 +52,33 @@
       </ol>
     </nav>
     <div class="row">
-      <div class="col-4">
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#offer" aria-expanded="false"
+          aria-controls="multicollpse1">Ofertas</button>
+      </div>
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#enjoy-dog" aria-expanded="false"
+          aria-controls="multicollpse2">Destinos para mascotas</button>
+      </div>
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#enjoy-destination" aria-expanded="false"
+          aria-controls="multicollpse3">Mejores destinos</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 collapse multi-collapse" id="offer">
         <p>
           <h3>Ofertas semana santa</h3>
           <P>Ahorro un minimo de un 20% en alojamientos en todo el mundo hasta agotar existencia</P>
         </p>
       </div>
-      <div class="col-4">
+      <div class="col-4 collapse multi-collapse" id="enjoy-dog">
         <p>
           <h3>7 destinos aventureros para disfrutar con tu perro</h3>
           <P>Un viaje divertifo y lleno de experiencias innolvidables al lado de tu perro es lo que tu necesitas</P>
         </p>
       </div>
-      <div class="col-4">
+      <div class="col-4 collapse multi-collapse" id="enjoy-destination">
         <p>
           <h3>Destinos que mas nos gustan</h3>
           <P>Disfruta de los destinos mas espectaculares que puedes encontrar en colombia, entre ellos tenemos desierto
@@ -73,7 +87,7 @@
       </div>
     </div>
     <img class="img-fluid" src="./img/img-header-banner.jpeg" alt="Responsive image banner">
-   
+
     <div class="d-flex flex-wrap">
       <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
         <img class="card-img-top" src="./img/img-malibu.jpg" alt="Card image malibu">
@@ -152,7 +166,7 @@
         </div>
       </div>
       <div class=" card card-hotel d-flex flex-column justify-content-between ml-2">
-        <img class="card-img-top" src="./img/img-chile.jpg" alt="card image chile">
+                  <img class="card-img-top" src="./img/img-chile.jpg" alt="card image chile">
                   <div class="card-body">
                     <h5 class="card-title">Hotel Santiago</h5>
                     <h6 class="card-subtitle text-muted">Chile</h6>

@@ -79,5 +79,8 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# Pdf files
+# PDF files
 *.pdf
+
+# vscode config
+.vscode
